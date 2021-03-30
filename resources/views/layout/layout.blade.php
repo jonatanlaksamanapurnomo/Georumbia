@@ -46,6 +46,7 @@
 <script src={{asset("js/aos.js")}}></script>
 <script src={{asset("js/jquery.fancybox.min.js")}}></script>
 <script src={{asset("js/jquery.sticky.js")}}></script>
+<script src={{asset("js/isotope.pkgd.min.js")}}></script>
 
 <script src={{asset("js/typed.js")}}></script>
 <script>

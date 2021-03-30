@@ -2071,3 +2071,34 @@ h1, h2, h3, h4, h5,
     background: #dee2e6; }
 .slide-one-item .owl-dots .owl-dot.active span {
     background: #007bff; }
+.custom-direction {
+    position: relative;
+    z-index: 99;
+    border-radius: 7px;
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: inline-block;
+    background: #007bff; }
+@media (max-width: 991.98px) {
+    .custom-direction {
+        bottom: -25px;
+        top: auto !important;
+        right: 50% !important;
+        -webkit-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        transform: translateX(50%); } }
+.custom-direction a {
+    padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+    font-size: 1.5rem; }
+.custom-direction a.custom-next > span > span {
+    position: relative;
+    display: inline-block;
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg); }
