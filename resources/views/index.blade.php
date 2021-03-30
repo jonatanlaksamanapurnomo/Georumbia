@@ -80,9 +80,9 @@
                 </div>
             </div>
         </div>
-        <div class="slide-one-item home-slider owl-carousel container  justify-content-center d-flex ">
+        <div class="slide-one-item home-slider owl-carousel container ">
             <div>
-                <div class="row">
+                <div class="row justify-content-center d-flex">
                     <div class="col-4 d-flex justify-content-center " style="width: 50vw; height: 50vh " >
                         <img src="{{asset('images/gambar.jpg')}}" alt="Image" class="w-100 img-fluid ">
                     </div>
@@ -95,7 +95,7 @@
                 </div>
             </div>
             <div>
-                <div class="row">
+                <div class="row justify-content-center d-flex">
                     <div class="col-4 d-flex justify-content-center " style="width: 50vw; height: 50vh " >
                         <img src="{{asset('images/gambar.jpg')}}" alt="Image" class="w-100 img-fluid ">
                     </div>
@@ -108,7 +108,7 @@
                 </div>
             </div>
             <div>
-                <div class="row">
+                <div class="row justify-content-center d-flex">
                     <div class="col-4 d-flex justify-content-center " style="width: 50vw; height: 50vh " >
                         <img src="{{asset('images/gambar.jpg')}}" alt="Image" class="w-100 img-fluid ">
                     </div>

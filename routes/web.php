@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', "App\Http\Controllers\ViewController@getIndex");
 
 Route::get('/about', "App\Http\Controllers\ViewController@getAbout");
+Route::get('/services', "App\Http\Controllers\ViewController@getServices");
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

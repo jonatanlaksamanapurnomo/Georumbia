@@ -14,7 +14,7 @@
         <div class="row align-items-center">
 
             <div class="col-11 col-xl-2">
-                <h1 class="mb-0 site-logo">Georumbia<a href="index.html" class="text-black h2 mb-0"><span class="text-primary">.</span> </a></h1>
+                <h1 class="mb-0 site-logo">Georumbia<a href="index.html" class="text-black h2"><span class="text-primary">.</span> </a></h1>
             </div>
             <div class="col-12 col-md-10 d-none d-xl-block">
                 <nav class="site-navigation position-relative text-right" role="navigation">
@@ -22,9 +22,9 @@
                     <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                         <li><a href="/" class="nav-link">Home</a></li>
                         <li><a href="/about" class="nav-link">About</a> </li>
-                        <li><a href="#services-section" class="nav-link">Services</a></li>
-                        <li><a href="#blog-section" class="nav-link">Blog</a></li>
-                        <li><a href="#contact-section" class="nav-link">Contact</a></li>
+                        <li><a href="/services" class="nav-link">Services</a></li>
+                        <li><a href="/blog" class="nav-link">Blog</a></li>
+                        <li><a href="contact" class="nav-link">Contact</a></li>
                     </ul>
                 </nav>
             </div>

@@ -15,4 +15,8 @@ class ViewController extends Controller
     public function getAbout(){
         return view("about");
     }
+
+    public function getServices(){
+        return view("services");
+    }
 }
