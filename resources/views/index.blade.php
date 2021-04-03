@@ -5,7 +5,7 @@
     <div class="site-wrap">
 
 
-        <div class="site-blocks-cover overlay mb-5"
+        <div class="site-blocks-cover overlay"
              style="background-image: url({{asset('images/main_banner.jpg')}});"
              data-aos="fade" data-stellar-background-ratio="0.5">
             <div class="container">
@@ -14,8 +14,8 @@
                     <div class="col-md-12" data-aos="fade-up" data-aos-delay="400">
 
                         <div class="row justify-content-center mb-5">
-                            <div class="text-center">
-                                <img src="{{asset('images/greener.png')}}" width="1350" alt="">
+                            <div class="col-md-8 text-center">
+                                <img src="{{asset('images/greener.png')}}" width="100%" alt="">
                                 <div>
                                     <a href="/contact" class="btn text-white btn-outline-white rounded-0 btn-md">Contact
                                         Us</a>
