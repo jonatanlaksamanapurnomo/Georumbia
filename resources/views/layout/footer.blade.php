@@ -34,7 +34,7 @@
                     <p> 10270 Central Jakarta, Indonesia</p>
                 </div>
                 <div class="
-                ">
+                    ">
                     <p>marketing@georumbia.com</p>
                 </div>
                 <div class="">
@@ -44,3 +44,4 @@
         </div>
     </div>
 </footer>
+

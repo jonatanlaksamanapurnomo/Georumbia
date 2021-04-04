@@ -28,9 +28,11 @@
 </head>
 <body>
 
-@include("layout.navbar")
-   @yield('content')
-@include("layout.footer")
+<div class="site-wrap">
+    @include("layout.navbar")
+    @yield('content')
+    @include("layout.footer")
+</div> <!-- .site-wrap -->
 
 </body>
 
@@ -52,7 +54,7 @@
 <script src={{asset("js/typed.js")}}></script>
 <script>
     var typed = new Typed('.typed-words', {
-        strings: ["Web Apps"," WordPress"," Mobile Apps"],
+        strings: ["Web Apps", " WordPress", " Mobile Apps"],
         typeSpeed: 80,
         backSpeed: 80,
         backDelay: 4000,
@@ -62,5 +64,5 @@
     });
 </script>
 
-<script src="js/main.js"></script>
+<script src={{asset("js/main.js")}}></script>
 </html>

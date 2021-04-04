@@ -31,10 +31,10 @@ class ViewController extends Controller
         return view("services", ["services" => $services]);
     }
 
-    public function getBlog()
+    public function getNews()
     {
         $blogs = Blog::all();
-        return view("blog", ["blogs" => $blogs]);
+        return view("news", ["blogs" => $blogs]);
     }
 
     public function getContact()
@@ -42,11 +42,20 @@ class ViewController extends Controller
         return view("contact");
     }
 
-    public function getBlogDetail($id)
+    public function getNewsDetail($id)
     {
         $blogDetail = Blog::find($id);
+
         $recent = Blog::orderBy('created_at')->take(3)->get();
-        return view("blog_detail", ["blog" => $blogDetail, "recent" => $recent]);
+        return view("newsDetail", ["blog" => $blogDetail, "recent" => $recent]);
+    }
+
+    public function newsDetail($id)
+    {
+        $blogDetail = Blog::find($id);
+
+        $recent = Blog::orderBy('created_at')->take(3)->get();
+        return view("newsDetail", ["blog" => $blogDetail, "recent" => $recent]);
     }
 
     public function createContact()

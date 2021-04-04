@@ -17,9 +17,9 @@ Route::get('/', "App\Http\Controllers\ViewController@getIndex");
 
 Route::get('/about', "App\Http\Controllers\ViewController@getAbout");
 Route::get('/services', "App\Http\Controllers\ViewController@getServices");
-Route::get('/blog', "App\Http\Controllers\ViewController@getBlog");
+Route::get('/news', "App\Http\Controllers\ViewController@getNews");
 Route::get('/contact', "App\Http\Controllers\ViewController@getContact");
-Route::get('/blog/{id}', "App\Http\Controllers\ViewController@getBlogDetail");
+Route::get('/news/{id}', "App\Http\Controllers\ViewController@newsDetail");
 Route::post('/send/contact', "App\Http\Controllers\ViewController@createContact")->name("create_contact");
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

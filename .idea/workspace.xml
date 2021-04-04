@@ -5,10 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5630b50-6280-41b8-a5ad-2a00e04c3382" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/newDetail.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/news.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/newsDetail.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ViewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ViewController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Fahrul R.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Iqbal Khalilullah.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/Niko.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/about-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/blog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gambar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/pohon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/sago.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/services.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/aos.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/aos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog_detail.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,7 +352,9 @@
       <workItem from="1617194179412" duration="10249000" />
       <workItem from="1617271429379" duration="9314000" />
       <workItem from="1617379313380" duration="10144000" />
-      <workItem from="1617436196624" duration="794000" />
+      <workItem from="1617436196624" duration="11613000" />
+      <workItem from="1617484090419" duration="4101000" />
+      <workItem from="1617529013631" duration="8813000" />
     </task>
     <servers />
   </component>
