@@ -2,15 +2,12 @@
 
 @section("content")
 
-
-
-
     <div class="site-blocks-cover overlay"
          style="background-image: url({{asset('images/main_banner.jpg')}});"
          data-aos="fade">
         <div class="container">
             <div class="row align-items-center justify-content-center text-center">
-                <div class="col-md-12" data-aos="fade-up" data-aos-delay="400">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="400">
                     <img src="{{asset('images/greener.png')}}" width="100%" alt="">
                     <div>
                         <a href="/contact" class="btn text-white btn-outline-white rounded-0 btn-md">Contact
@@ -76,20 +73,36 @@
     <div class="site-section ">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-8 text-center">
-                    <h2 class="main_about site-section-heading text-center">Clients</h2>
+                <div class="col-md-6 text-center">
+                    <h2 class="main_about site-section-heading text-center">Testimonies</h2>
                 </div>
             </div>
         </div>
         <div class="slide-one-item home-slider owl-carousel container ">
             <div>
-                <div class="row justify-content-center d-flex">
-                    @foreach( $clients as $item  )
-                        <div class="col-4 d-flex justify-content-center ">
-                            <img src="{{ Voyager::image( $item->image ) }}" alt="Image" class="img-fluid ">
+                @foreach( $clients as $item  )
+                    <div class="row justify-content-center d-flex">
+                        <div class="col-3 col-sm-4  d-flex justify-content-center">
+                            <img src="{{ Voyager::image( $item->image ) }}" alt="Image"
+                                 class="img-fluid rounded-circle mb-4">
                         </div>
-                    @endforeach
-                </div>
+                    </div>
+                    <div class="row justify-content-center d-flex text-black">
+                        <div class="col-12 justify-content-center d-flex text-center">
+                            <h3>UBS Global of Hongkong Office</h3>
+                        </div>
+
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-10 text-center">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius exercitationem harum hic
+                                iure
+                                maiores officia quas rem reprehenderit repudiandae velit? Debitis illum impedit nesciunt
+                                voluptatibus!</p>
+                        </div>
+
+                    </div>
+                @endforeach
             </div>
         </div>
     </div>

@@ -18,6 +18,7 @@ Route::get('/', "App\Http\Controllers\ViewController@getIndex");
 Route::get('/about', "App\Http\Controllers\ViewController@getAbout");
 Route::get('/services', "App\Http\Controllers\ViewController@getServices");
 Route::get('/news', "App\Http\Controllers\ViewController@getNews");
+Route::get('/clients', "App\Http\Controllers\ViewController@getClients");
 Route::get('/contact', "App\Http\Controllers\ViewController@getContact");
 Route::get('/news/{id}', "App\Http\Controllers\ViewController@newsDetail");
 Route::post('/send/contact', "App\Http\Controllers\ViewController@createContact")->name("create_contact");

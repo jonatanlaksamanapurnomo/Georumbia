@@ -4,7 +4,7 @@
     <div class="site-section ">
         <div class="banner_area " data-aos="fade">
             <div class="banner_inner d-flex align-items-center "
-                 style="  background: url({{asset('images/about-us/about-us-banner.jpg')}}) scroll center center;background-repeat: no-repeat;background-size: 100%; ">
+                 style="  background: url({{asset('images/about-us/about-us-banner.jpg')}})fixed center;background-repeat: no-repeat;background-size: cover;">
                 <div class="container ">
                     <div class="banner_content text-center">
                         <h2>About</h2>
@@ -90,27 +90,27 @@
         </div>
     </div>
 
-    <div class="site-section p_120">
-        <div class="container">
-            <div class="main_title text-center">
-                <h2>Meet Our Team</h2>
-            </div>
-            <div class="row team_inner d-flex justify-content-center">
-                @foreach($teams as $item)
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="team_item">
-                            <div class="d-flex justify-content-center rounded-circle">
-                                <img class="rounded-circle" src="{{ Voyager::image( $item->image ) }}" alt="Image"
-                                     class="w-100 img-fluid ">
-                            </div>
-                            <div class="team_name">
-                                <h4>{{$item->name}}</h4>
-                                <p>{{$item->position}}</p>
-                            </div>
-                        </div>
-                    </div>
-                @endforeach
-            </div>
-        </div>
-    </div>
+    {{--    <div class="site-section p_120">--}}
+    {{--        <div class="container">--}}
+    {{--            <div class="main_title text-center">--}}
+    {{--                <h2>Meet Our Team</h2>--}}
+    {{--            </div>--}}
+    {{--            <div class="row team_inner d-flex justify-content-center">--}}
+    {{--                @foreach($teams as $item)--}}
+    {{--                    <div class="col-lg-3 col-sm-6">--}}
+    {{--                        <div class="team_item">--}}
+    {{--                            <div class="d-flex justify-content-center rounded-circle">--}}
+    {{--                                <img class="rounded-circle" src="{{ Voyager::image( $item->image ) }}" alt="Image"--}}
+    {{--                                     class="w-100 img-fluid ">--}}
+    {{--                            </div>--}}
+    {{--                            <div class="team_name">--}}
+    {{--                                <h4>{{$item->name}}</h4>--}}
+    {{--                                <p>{{$item->position}}</p>--}}
+    {{--                            </div>--}}
+    {{--                        </div>--}}
+    {{--                    </div>--}}
+    {{--                @endforeach--}}
+    {{--            </div>--}}
+    {{--        </div>--}}
+    {{--    </div>--}}
 @endsection

@@ -3,7 +3,7 @@ AOS.init({
     easing: 'slide',
     once: true
 });
-console.log("loaded")
+
 jQuery(document).ready(function ($) {
 
     "use strict";

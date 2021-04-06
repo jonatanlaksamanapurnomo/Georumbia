@@ -42,12 +42,10 @@ class ViewController extends Controller
         return view("contact");
     }
 
-    public function getNewsDetail($id)
+    public function getClients()
     {
-        $blogDetail = Blog::find($id);
-
-        $recent = Blog::orderBy('created_at')->take(3)->get();
-        return view("newsDetail", ["blog" => $blogDetail, "recent" => $recent]);
+        $c = Client::all();
+        return view('client', ["clients" => $c]);
     }
 
     public function newsDetail($id)

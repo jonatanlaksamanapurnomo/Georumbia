@@ -3,8 +3,15 @@
 
     <div class="site-section">
         <div class="banner_area " data-aos="fade">
-            <div class="banner_inner d-flex align-items-center"
-                 style="background: url({{asset('images/news-banner.png')}}) scroll center center;background-repeat: no-repeat;background-size: 100%;">
+            <div class="banner_inner d-flex align-items-center "
+                 style="background:
+                     /* top, transparent red, faked with gradient */
+                     linear-gradient(
+                     rgba(0, 0, 0, 0.2),
+                     rgba(0, 0, 0, 0.2)
+                     ),
+                     /* bottom, image */
+                     url({{asset('images/blog-banner.jpg')}})fixed center;background-repeat: no-repeat;background-size:cover ;">
                 <div class="container p-5">
                     <div class="banner_content text-center">
                         <h2>News</h2>

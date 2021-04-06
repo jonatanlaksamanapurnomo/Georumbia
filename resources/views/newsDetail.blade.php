@@ -11,7 +11,7 @@
                      rgba(0, 0, 0, 0.2)
                      ),
                      /* bottom, image */
-                     url({{asset('images/news-banner.jpg')}}) scroll center center;background-repeat: no-repeat;background-size: 100%;">
+                     url({{asset('images/blog-banner.jpg')}})fixed center;background-repeat: no-repeat;background-size: cover;">
                 <div class="container p-5">
                     <div class="banner_content text-center ">
                         <h2>News</h2>
@@ -21,7 +21,7 @@
         </div>
     </div>
 
-    <section class="blog_area single-post-area p_120">
+    <section class="blog_area single-post-area p_120 mb-4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 posts-list">
@@ -40,7 +40,7 @@
                 <div class="col-lg-4">
                     <div class="blog_right_sidebar">
                         <aside class="single_sidebar_widget popular_post_widget">
-                            <h3 class="widget_title">Popular Posts</h3>
+                            <h3 class="widget_title">Recent News</h3>
                             @foreach($recent as $item)
                                 <div class="media post_item">
                                     <img src="{{Voyager::image($item->image)}}" width="50%" alt="">

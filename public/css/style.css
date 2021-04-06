@@ -567,7 +567,7 @@ h1, h2, h3, h4, h5,
     z-index: 2000;
     padding-top: 20px;
     background: #fff;
-    height: calc(100vh);
+    height: calc(500);
     -webkit-transform: translateX(110%);
     -ms-transform: translateX(110%);
     transform: translateX(110%);
@@ -635,7 +635,7 @@ h1, h2, h3, h4, h5,
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     position: relative;
-    padding: 0 20px 20px 20px;
+    padding: 0 20px 0px 20px;
     height: calc(100vh - 52px);
     padding-bottom: 150px;
 }
@@ -783,8 +783,8 @@ h1, h2, h3, h4, h5,
 }
 
 .sticky-wrapper .shrink {
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }
 
 /* Blocks */
@@ -2598,14 +2598,14 @@ h1, h2, h3, h4, h5,
 .banner_area {
     position: relative;
     z-index: 1;
-    min-height: 300px;
-    width: inherit;
+    height: 350px;
+    width: 100%;
 }
 
 .banner_area .banner_inner {
     position: relative;
     overflow: hidden;
-    min-height: 300px;
+    height: 350px;
     z-index: 1;
 }
 

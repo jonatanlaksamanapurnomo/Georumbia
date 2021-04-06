@@ -4,10 +4,10 @@
     <div class="site-section">
         <div class="banner_area  " data-aos="fade">
             <div class="banner_inner d-flex align-items-center"
-                 style="  background:url({{asset('images/contact.png')}}) scroll center center;background-repeat: no-repeat;background-size: 100%;">
+                 style="background:url({{asset('images/contact.png')}})fixed center;background-repeat: no-repeat;background-size: cover;">
                 <div class="container p-5">
                     <div class="banner_content text-center ">
-                        <h2>News</h2>
+                        <h2>Contact</h2>
                     </div>
                 </div>
             </div>
