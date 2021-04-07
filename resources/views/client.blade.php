@@ -11,10 +11,10 @@
                      rgba(0, 0, 0, 0.2)
                      ),
                      /* bottom, image */
-                     url({{asset('images/blog-banner.jpg')}})fixed center;background-repeat: no-repeat;background-size:cover ;">
+                     url({{asset('images/client-banner.jpg')}})fixed center;background-repeat: no-repeat;background-size:cover ;">
                 <div class="container ">
                     <div class="banner_content text-center">
-                        <h2>Our Clients</h2>
+                        <h2>Our Client</h2>
                     </div>
                 </div>
             </div>

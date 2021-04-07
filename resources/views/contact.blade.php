@@ -71,7 +71,9 @@
                             </div>
                         </div>
                         <div class="col-md-12 text-right">
-                            <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
+                            <button type="submit" value="submit"
+                                    class="btn text-white bg-primary btn-outline-white rounded-0 btn-md">Send Message
+                            </button>
                         </div>
                     </form>
                 </div>

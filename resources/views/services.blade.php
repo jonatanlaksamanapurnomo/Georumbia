@@ -4,7 +4,11 @@
     <div class="site-section">
         <div class="banner_area " data-aos="fade">
             <div class="banner_inner d-flex align-items-center"
-                 style="  background: url({{asset('images/services/services-1.png')}}) fixed center;background-repeat: no-repeat;background-size: cover;">
+                 style="background-image: linear-gradient(
+                     rgba(0, 0, 0, 0.4),
+                     rgba(0, 0, 0, 0.4)
+                     ),url({{asset('images/services/services_banner.jpg')}});
+                     background-position-x: 55%;background-position-y:150% ; background-attachment:fixed;background-repeat: no-repeat;background-size: cover;">
                 <div class="container p-5">
                     <div class="banner_content text-center">
                         <h2>Services</h2>
@@ -50,7 +54,8 @@
         <div class="container">
             <div class="row justify-content-center d-flex m">
                 <div class="col-xl-5 mr-4 mb-2">
-                    <img src="{{asset('images/aboutus.JPG')}}" style="width: inherit" alt="">
+                    <img src="{{asset('images/services/services_energy_efficiency.jpg')}}" style="width: inherit"
+                         alt="">
                 </div>
                 <div class="col-xl-5">
                     <h2 class="section-title mb-3" style="font-weight: bold">Energy Efficiency</h2>
@@ -112,8 +117,8 @@
 
     <div class="site-section">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-7 text-center">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-10 text-center">
                     <h2><b>Why Energy-Efficient and Green Buildings?</b></h2>
                 </div>
             </div>
@@ -121,9 +126,12 @@
                 <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
 
                     <div class="owl-carousel slide-one-item-alt">
-                        <img src="{{asset('images/services/green-building-certification.jpg')}}" alt="Image"
-                             class="img-fluid">
-                        <img src="{{asset('images/services/energy-efficiency.jpg')}}" alt="Image" class="img-fluid">
+                        <img src="{{asset('images/services/services marketing advantage.jpg')}}" alt="Image"
+                             class="img-fluid" style="min-height: 330px; max-height: 330px;">
+                        <img src="{{asset('images/services/services comfort indoor.jpg')}}" alt="Image"
+                             class="img-fluid" style="min-height: 330px; max-height: 330px;">
+                        <img src="{{asset('images/services/services energy efficient.jpg')}}" alt="Image"
+                             class="img-fluid" style="min-height: 330px; max-height: 330px;">
                     </div>
                     <div class="custom-direction">
                         <a href="#" class="custom-prev"><span><span
@@ -145,6 +153,10 @@
                             <h2 class="section-title mb-3">Comfort Indoor</h2>
                             <p class="lead">✓ High performance of employees</p>
                             <p class="lead">✓ Less annual leave rate</p>
+                        </div>
+                        <div>
+                            <h2 class="section-title mb-3">Energy Efficient</h2>
+                            <p class="lead">✓ Reduced energy at least 10% to 50%</p>
                         </div>
                     </div>
                 </div>
@@ -198,7 +210,7 @@
                 </div>
             </div>
             <div class="row justify-content-center d-flex">
-                <div class="col-4 col-xl-3 m-3">
+                <div class="col-4 col-xl-2 m-3">
                     <img src="{{asset('images/services/leed.jpg')}}" style="width: inherit;"
                          alt="">
                 </div>

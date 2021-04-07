@@ -4,7 +4,11 @@
     <div class="site-section ">
         <div class="banner_area " data-aos="fade">
             <div class="banner_inner d-flex align-items-center "
-                 style="  background: url({{asset('images/about-us/about-us-banner.jpg')}})fixed center;background-repeat: no-repeat;background-size: cover;">
+                 style="background-image: linear-gradient(
+                     rgba(0, 0, 0, 0.3),
+                     rgba(0, 0, 0, 0.3)
+                     ),url({{asset('images/about-us/about_us_banner.jpg')}});
+                     background-position-x: 100%;background-position-y: 120%; background-attachment:fixed;background-repeat: no-repeat;background-size: cover;">
                 <div class="container ">
                     <div class="banner_content text-center">
                         <h2>About</h2>
@@ -15,12 +19,13 @@
     </div>
 
     <div class="site-section">
-        <div class="col-12 mb-4">
-            <h2 class="text-black h1 site-section-heading text-center">How it came to be</h2>
+        <div class="col-xs-12 mb-4">
+            <h2 class="text-black site-section-heading text-center" style="font-family: Times New Roman;">How it came to
+                be</h2>
             <p class="text-center lead">"We not only help you, we care for you"</p>
         </div>
         <div class="row justify-content-center">
-            <div class="col-md-7 mb-4 text-center ">
+            <div class="col-md-7 col-11 mb-4 text-center px-2">
                 <p class="lead">The Indonesia commitment to reducing carbon footprints, expressed in the signature
                     of Kyoto protocal, has opened up doors
                     to many green business. Some local or provincial governments and businesses even adopted
@@ -28,7 +33,7 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-md-7 mb-4 text-center ">
+            <div class="col-md-7 col-11 mb-4 text-center px-2">
                 <p class="lead">We realized that to accomodate the transition, we could offer them our decade of
                     expertise in Green Building Certification and
                     Energy Efficiency. We believe that people can live and work happily without the expense of
@@ -39,7 +44,7 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-md-7 mb-4 text-center ">
+            <div class="col-md-7 col-11 mb-4 text-center ">
                 <p class="lead">With New Energy Nexus' assistance we managed to form a sturdy foundation in our
                     inner organization, drive up sales to the next level, and expand
                     our relations.</p>
@@ -48,9 +53,14 @@
     </div>
 
     <div class="site-section about-quotes text-white"
-         style="background: url({{asset('images/about-us/about-1.jpg')}}) no-repeat scroll center center;">
+         style="background:
+             /* top, transparent red, faked with gradient */
+             linear-gradient(
+             rgba(0, 0, 0, 0.5),
+             rgba(0, 0, 0, 0.5)
+             ),url({{asset('images/about-us/about_us_why_banner.jpg')}}) no-repeat scroll center center; background-size: cover;">
         <div class="row d-flex justify-content-center">
-            <div class="col-md-8 mb-4 text-center text-white ">
+            <div class="col-md-8 col-11 mb-4 text-center text-white ">
                 <p class="lead">Driven to make the world into a better place by securing greener today, we sought to
                     make a meaningful impact
                     on the pursuit of global energy sustainability. To do that, we strive to empower today's
@@ -84,7 +94,7 @@
                     </div>
                 </div>
                 <div class="col-md-5 d-flex justify-content-center ">
-                    <img src="{{asset('images/about-us/about-us-name.jpg')}}" alt="Image" class="w-95 img-fluid ">
+                    <img src="{{asset('images/about-us/about us about name.jpg')}}" alt="Image" class="w-95 img-fluid ">
                 </div>
             </div>
         </div>

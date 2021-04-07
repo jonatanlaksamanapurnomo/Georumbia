@@ -15,7 +15,7 @@
 
             <div class="col-11 col-xl-2">
                 <a href="/">
-                    <img src="{{asset("images/logo.png")}}"/>
+                    <img src="{{asset("images/logo/logo.png")}}"/>
                 </a>
             </div>
             <div class="col-12 col-md-10 d-none d-xl-block">
@@ -24,7 +24,7 @@
                     <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                         <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
                         <li><a href="/about" class="nav-link">About</a></li>
-                        <li><a href="/clients" class="nav-link">Our Clients</a></li>
+                        <li><a href="/client" class="nav-link">Our Client</a></li>
                         <li><a href="/contact" class="nav-link">Contact</a></li>
                         <li><a href="/services" class="nav-link">Services</a></li>
                         <li><a href="/news" class="nav-link">News</a></li>
