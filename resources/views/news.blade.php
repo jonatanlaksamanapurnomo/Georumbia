@@ -1,5 +1,6 @@
 @extends("layout.layout")
 @section("content")
+    @php use Illuminate\Support\Str; @endphp
 
     <div class="site-section">
         <div class="banner_area " data-aos="fade">
@@ -27,8 +28,10 @@
                             <img class="img-fluid" src="{{ Voyager::image( $item->image ) }}" alt="">
                             <a class="date">{{$item->created_at}} | By {{$item->author}}</a>
                             <a href="/news/{{$item->id  }}"><h4>{{$item->title}}</h4></a>
-                            <p>{!! $item->body !!}</p>
+                            <p>{!!  Str::words($item->body, '25');  !!}</p>
+
                         </div>
+                        <a class="mt-3 " href="/news/{{$item->id }}">Read More</a>
                     </div>
                 @endforeach
 
