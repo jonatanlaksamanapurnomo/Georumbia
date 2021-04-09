@@ -53,6 +53,9 @@
 <script src={{asset("js/jquery.fancybox.min.js")}}></script>
 <script src={{asset("js/jquery.sticky.js")}}></script>
 <script src={{asset("js/isotope.pkgd.min.js")}}></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"
+        integrity="sha512-/6TZODGjYL7M8qb7P6SflJB/nTGE79ed1RfJk3dfm/Ib6JwCT4+tOfrrseEHhxkIhwG8jCl+io6eaiWLS/UX1w=="
+        crossorigin="anonymous"></script>
 
 <script src={{asset("js/typed.js")}}></script>
 <script>

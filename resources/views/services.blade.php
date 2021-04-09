@@ -179,7 +179,7 @@
     <div class="site-section">
         <div class="container">
             <div class="row justify-content-center d-flex mb-xl-4">
-                <div class="col-xl-12 text-center">
+                <div class="col-xl-12 text-center ">
                     <h2 class="section-title" style="font-weight: bold">Green Project Case Study</h2>
                 </div>
             </div>

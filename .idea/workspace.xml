@@ -23,14 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5630b50-6280-41b8-a5ad-2a00e04c3382" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/nex-white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Blog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layout/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/news.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,7 +246,8 @@
       <workItem from="1617720754632" duration="15795000" />
       <workItem from="1617787630320" duration="2102000" />
       <workItem from="1617795205980" duration="7976000" />
-      <workItem from="1617868708625" duration="3410000" />
+      <workItem from="1617868708625" duration="3497000" />
+      <workItem from="1617963588067" duration="1476000" />
     </task>
     <servers />
   </component>
@@ -266,11 +264,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617876596736">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617964922924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617876596736" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617964922924" />
   </component>
 </project>
