@@ -4,7 +4,7 @@
 
     <div class="site-blocks-cover overlay parallax-window"
          data-parallax="scroll"
-         style="background-image: url({{asset('images/home/home_banner.jpg')}});"
+         style="background-image: url({{asset('images/home/home_banner.jpg')}}); background-position-x: 100%;background-position-y: 120%; background-attachment:fixed "
          data-aos="fade">
         <div class="container">
             <div class="row align-items-center justify-content-center text-center">
