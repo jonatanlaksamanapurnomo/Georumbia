@@ -2,15 +2,13 @@
 
 @section("content")
 
-    <div class="site-blocks-cover overlay parallax-window"
-         data-parallax="scroll"
-         style="background-image: url({{asset('images/home/home_banner.jpg')}}); background-position-x: 100%;background-position-y: 120%; background-attachment:fixed "
+    <div class="site-blocks-cover overlay"
+         style="background-image: url({{asset('images/home/home_banner.jpg')}});background-attachment:fixed;"
          data-aos="fade">
         <div class="container">
             <div class="row align-items-center justify-content-center text-center">
                 <div class="col-12 col-md-9" data-aos="fade-up" data-aos-delay="400">
-                    <img class="parallax-window" data-parallax="scroll" src="{{asset('images/greener.png')}}"
-                         width="100%" alt="">
+                    <img src="{{asset('images/greener.png')}}" width="100%" alt="">
                     <div>
                         <a href="/contact" class="btn text-white btn-outline-white rounded-0 btn-md">Contact
                             Us</a>
@@ -35,7 +33,7 @@
 
                         <div class="col-12">
                             <div class="text-left pb-1">
-                                <h2 style="font-size: 1rem" class="h1 site-section-heading main_about">About Us</h2>
+                                <h2 class="h1 site-section-heading main_about">About Us</h2>
                             </div>
                         </div>
                         <div class="col-12 mb-4">
@@ -83,8 +81,8 @@
             </div>
         </div>
         <div class="slide-one-item home-slider owl-carousel container ">
-            <div>
-                @foreach( $clients as $item  )
+            @foreach( $clients as $item  )
+                <div>
                     <div class="row justify-content-center d-flex">
                         <div class="col-4 col-xl-3  d-flex justify-content-center">
                             <img src="{{ Voyager::image( $item->image ) }}" alt="Image"
@@ -105,8 +103,8 @@
                                 voluptatibus!</p>
                         </div>
                     </div>
-                @endforeach
-            </div>
+                </div>
+            @endforeach
         </div>
     </div>
 
