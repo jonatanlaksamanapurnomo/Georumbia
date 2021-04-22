@@ -24,23 +24,20 @@
         <div class="site-section">
             <div class="container">
                 <div class="row justify-content-center d-flex">
-                    <div class="col-3 col-sm-4  d-flex justify-content-center">
+                    <div class="col-11 col-md-4  d-flex justify-content-center">
                         <img src="{{ Voyager::image( $item->image ) }}" alt="Image"
-                             class="img-fluid rounded-circle mb-4">
+                             class="mb-4" style="width: 100%;">
                     </div>
                 </div>
                 <div class="row justify-content-center d-flex text-black">
                     <div class="col-12 justify-content-center d-flex text-center">
-                        <h3>UBS Global of Hongkong Office</h3>
+                        <h3>{{$item->name}}</h3>
                     </div>
 
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-10 text-center">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius exercitationem harum hic
-                            iure
-                            maiores officia quas rem reprehenderit repudiandae velit? Debitis illum impedit nesciunt
-                            voluptatibus!</p>
+                        <p>{{$item->testimoni}}</p>
                     </div>
 
                 </div>

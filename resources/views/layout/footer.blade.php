@@ -24,7 +24,10 @@
                     </div>
                     <div class="col-md-3">
                         <h2 class="footer-heading mb-4">Follow Us</h2>
-                        <i class="fab fa-linkedin-in text-primary"></i>
+                        <ul class="list-unstyled">
+                            <li><i class="fab fa-linkedin-in text-primary"></i></li>
+                            <li><i class="fab fa-instagram text-primary"></i></li>
+                        </ul>
                     </div>
                 </div>
             </div>
